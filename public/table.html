@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="table.css">
+    <title>Table</title>
+</head>
+
+<body>
+
+    <div id="topbar">
+        <h1><a href="index.html">Home</a></h1>
+        <h1><a href="table.html">Table</a></h1>
+        <div id="SortOptions">
+            <div class="dropdown">
+                <span class="dropdownSpan" id="chosenGenre">Genre</span>
+                <div class="dropdown-content" id="genreOptions">
+
+
+
+                </div>
+            </div>
+            <div class="dropdown">
+                <span class="dropdownSpan">Year</span>
+                <div class="dropdown-content">
+
+                    <span class="dropdownSpan" id="topDown">Top</span>
+                    <span class="dropdownSpan" id="downTop">Bottom</span>
+
+                </div>
+            </div>
+            <div class="aroundDoubleDropdown">
+                <span class="dropdownSpan">Rate</span>
+                <div class="doubleDropdown">
+                    <div class="dropdown">
+                        <span class="dropdownSpan" id="rateMin">Min</span>
+                        <div class="dropdown-content" id="rateMinContent">
+
+
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <span class="dropdownSpan" id="rateMax">Max</span>
+                        <div class="dropdown-content" id="rateMaxContent">
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="aroundDoubleDropdown">
+                <span class="dropdownSpan">Year</span>
+                <div class="doubleDropdown">
+                    <div class="dropdown">
+                        <span class="dropdownSpan" id="yearMin">Min</span>
+                        <div class="dropdown-content" id="yearDropdownMin">
+
+
+
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <span class="dropdownSpan" id="yearMax">Max</span>
+                        <div class="dropdown-content" id="yearDropdownMax">
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tableDiv">
+        <table>
+            <tr>
+                <th>Title</th>
+                <th>Year</th>
+                <th>Age rating</th>
+                <th>Genre</th>
+                <th>Rating</th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="table.js"></script>
+</body>
+
+</html>

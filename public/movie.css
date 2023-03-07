@@ -1,0 +1,63 @@
+#movie {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#movieInfo {
+    width: 75%;
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+}
+
+#movieInfo div {
+    min-width: 50%;
+}
+
+#movieTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#movieTitle span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#movieDateAge {
+    width: 100%;
+    display: flex;
+}
+
+#movieDateAge span {
+    font-size: 1.5rem;
+}
+
+#movieDateAge span+span {
+    margin-left: auto;
+}
+
+#descriptionSquare {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#descriptionSquare span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#description {
+    margin: 2rem;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#description {
+    font-size: 1.2rem;
+}

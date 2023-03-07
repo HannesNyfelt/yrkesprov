@@ -1,0 +1,24 @@
+#tableDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+table {
+    width: 75%;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+}
+
+td,
+th {
+    text-align: left;
+    border: white solid 1px;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin-left: 1rem;
+}
