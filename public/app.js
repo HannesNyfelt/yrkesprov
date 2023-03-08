@@ -18,6 +18,6 @@ async function fetchMovies() {
 }
 
 function showClickedMovie(id) {
-    location.replace(`/api/movies/${id}`)
+    //location.replace(`/api/movies/${id}`)
     location.replace(`/movie/${id}`)
 }

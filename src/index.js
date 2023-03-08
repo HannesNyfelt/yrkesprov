@@ -37,6 +37,7 @@ app.get("/movie/:id", (req, res) => {
 })
 
 app.get("/api/movies/:id", (req, res) => {
+  console.log(req.params.id);
   const data = movies.find((movie => movie.id == req.params.id))
   res.status(200).json(data)
 
